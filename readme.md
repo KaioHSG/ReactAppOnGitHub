@@ -13,5 +13,5 @@
   "build": "react-scripts build",
 ```
 ```shell
-npm deploy
+npm run deploy
 ```
