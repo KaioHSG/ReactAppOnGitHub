@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sobremim-reactapp/static/css/main.fc08f6a9.css",
+    "main.js": "/sobremim-reactapp/static/js/main.8279f10f.js",
+    "static/js/787.6dbf1702.chunk.js": "/sobremim-reactapp/static/js/787.6dbf1702.chunk.js",
+    "index.html": "/sobremim-reactapp/index.html",
+    "main.fc08f6a9.css.map": "/sobremim-reactapp/static/css/main.fc08f6a9.css.map",
+    "main.8279f10f.js.map": "/sobremim-reactapp/static/js/main.8279f10f.js.map",
+    "787.6dbf1702.chunk.js.map": "/sobremim-reactapp/static/js/787.6dbf1702.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc08f6a9.css",
+    "static/js/main.8279f10f.js"
+  ]
+}
