@@ -58,7 +58,13 @@ const Section = ({ profile }) => (
         <Card
           key={val.id}
           subTitle={val.nomeprojeto}
-          subTitleH3={val.linkprojeto}
+          subTitleH3={
+            <a
+            href={val.linkprojeto}
+            target="_blank">
+              {val.linkprojeto}
+            </a>
+          }
           data={val.periodo}
           info={val.resumoprojeto}
         />
