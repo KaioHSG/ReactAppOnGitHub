@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "img": "https://placeholder.com/200x200",
+    "nome": "Nome",
+    "sobrenome": "Sobrenome",
+    "cidade": "Cidade",
+    "estado": "Estado",
+    "contato": "(00) 91234-5678",
+    "email": "contato@mail.net",
+    "biografia": "Minha biogarfia",
+    "linkedin": "https://www.linkedin.com",
+    "github": "https://www.github.com",
+    "experiencia": [
+      {
+        "id": 1,
+        "cargo": "Meu cargo",
+        "empresa": "Empresa onde trabalhei",
+        "periodo": "Periodo trabalhado",
+        "atividades": "Atividade exercida"
+      }
+    ],
+    "habilidades": [
+      {
+        "id": 1,
+        "habilidade": "Minha habilidade",
+        "empresa": "Onde aprendi",
+        "periodo": "Tempo de parendisagem",
+        "atividades": "O que foi aprendido"
+      }
+    ],
+    "projetos": [
+      {
+        "id": 1,
+        "nomeprojeto": "Meu projeto",
+        "linkprojeto": "https://link.projeto",
+        "resumoprojeto": "Resumo do projeto"
+      }
+    ]
+  }
+}
