@@ -1,7 +1,7 @@
 ## How to add a React App on GitHub
 
 * Install gh-pages. 
-```
+```console
 npm install gh-pages --save-dev
 ```
 * Add the lines ```"homepage": "https://{git-name}.github.io/{repository-name}",```, ```"deploy": "gh-pages -d build",``` in their respective locations:
@@ -16,6 +16,6 @@ npm install gh-pages --save-dev
 + "deploy-page": "gh-pages -d build",
 ```
 * Deploy withe gh-pages.
-```
+```console
 npm run deploy-page
 ```
