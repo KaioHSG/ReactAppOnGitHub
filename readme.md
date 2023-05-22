@@ -2,7 +2,7 @@
 
 * Install gh-pages. 
 ```console
-npm install gh-pages --save-dev
+npm install gh-pages
 ```
 * Add the lines ```"homepage": "https://{git-name}.github.io/{repository-name}",```, ```"deploy": "gh-pages -d build",``` in their respective locations:
 ```diff
