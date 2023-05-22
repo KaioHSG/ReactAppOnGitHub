@@ -15,7 +15,7 @@ npm install gh-pages --save-dev
 "scripts": {
 + "deploy-page": "gh-pages -d build",
 ```
-* Deploy withe npm.
+* Deploy withe gh-pages.
 ```
 npm run deploy-page
 ```
