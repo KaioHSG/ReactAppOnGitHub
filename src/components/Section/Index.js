@@ -10,7 +10,7 @@ import { Sections } from './styles';
 const Section = ({ profile }) => (
   <>
     <Sections id="about">
-      <Title texto="Olá pessoal, sou o" />
+      <Title texto="Hi everyone, I'm" />
       <SectionHeading>
         {profile.nome} <Highlight>{profile.sobrenome}</Highlight>
       </SectionHeading>
@@ -20,7 +20,7 @@ const Section = ({ profile }) => (
       </Info>
       <p>{profile.biografia}</p>
       <div id="contacts">
-        <Title texto="Contatos" />
+        <Title texto="Contacts" />
         <h2>
           {profile.contato}
           <p/>
@@ -29,7 +29,7 @@ const Section = ({ profile }) => (
       </div>
     </Sections>
     <Sections id="experience">
-      <Title texto="Experiência" />
+      <Title texto="Experience" />
       {profile.experiencia.map((val) => (
         <Card
           key={val.id}
@@ -41,7 +41,7 @@ const Section = ({ profile }) => (
       ))}
     </Sections>
     <Sections id="skills">
-      <Title texto="Habilidades" />
+      <Title texto="Skills" />
       {profile.habilidades.map((val) => (
         <Card
           key={val.id}
@@ -53,7 +53,7 @@ const Section = ({ profile }) => (
       ))}
     </Sections>
     <Sections id="projects">
-      <Title texto="Projetos" />
+      <Title texto="Projects" />
       {profile.projetos.map((val) => (
         <Card
           key={val.id}

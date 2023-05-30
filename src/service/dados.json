@@ -1,39 +1,39 @@
 {
   "profile": {
     "img": "https://placeholder.com/200x200",
-    "nome": "Nome",
-    "sobrenome": "Sobrenome",
-    "cidade": "Cidade",
-    "estado": "Estado",
-    "contato": "(00) 91234-5678",
-    "email": "contato@mail.net",
-    "biografia": "Minha biogarfia",
-    "linkedin": "https://www.linkedin.com",
-    "github": "https://www.github.com",
+    "nome": "Name",
+    "sobrenome": "Surname",
+    "cidade": "City",
+    "estado": "State",
+    "contato": "(000) 123-4567",
+    "email": "contact@mail.net",
+    "biografia": "My biography.",
+    "linkedin": "https://www.linkedin.com/{myprofile}",
+    "github": "https://www.github.com/{myprofile}",
     "experiencia": [
       {
         "id": 1,
-        "cargo": "Meu cargo",
-        "empresa": "Empresa onde trabalhei",
-        "periodo": "Periodo trabalhado",
-        "atividades": "Atividade exercida"
+        "cargo": "Job",
+        "empresa": "Company where I work/worked",
+        "periodo": "Period worked",
+        "atividades": "Activity carried out."
       }
     ],
     "habilidades": [
       {
         "id": 1,
-        "habilidade": "Minha habilidade",
-        "empresa": "Onde aprendi",
-        "periodo": "Tempo de parendisagem",
-        "atividades": "O que foi aprendido"
+        "habilidade": "Skill",
+        "empresa": "Where I learned",
+        "periodo": "Learning time",
+        "atividades": "Activity carried out."
       }
     ],
     "projetos": [
       {
         "id": 1,
-        "nomeprojeto": "Meu projeto",
-        "linkprojeto": "https://link.projeto",
-        "resumoprojeto": "Resumo do projeto"
+        "nomeprojeto": "Project name",
+        "linkprojeto": "http://{project.link}",
+        "resumoprojeto": "Project summary."
       }
     ]
   }

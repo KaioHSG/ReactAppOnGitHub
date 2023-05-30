@@ -12,16 +12,16 @@ const Header = ({ img }) => (
         </Profile>
         <Ul>
           <Li>
-            <Itens to="/#about">Sobre</Itens>
+            <Itens to="/#about">About</Itens>
           </Li>
           <Li>
-            <Itens to="/#experience">Experiência</Itens>
+            <Itens to="/#experience">Experience</Itens>
           </Li>
           <Li>
-            <Itens to="/#skills">Habilidades</Itens>
+            <Itens to="/#skills">Skills</Itens>
           </Li>
           <Li>
-            <Itens to="/#projects">Projetos</Itens>
+            <Itens to="/#projects">Projects</Itens>
           </Li>
         </Ul>
       </Navbar>
