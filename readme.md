@@ -19,3 +19,4 @@ npm install gh-pages
 ```console
 npm run deploy-page
 ```
+* Go to `Settings > Pages` and in the `Branch` part select the `gh-pages` and save.
