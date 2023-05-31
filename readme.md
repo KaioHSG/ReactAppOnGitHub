@@ -1,26 +1,27 @@
 ## How to add a [React App](https://create-react-app.dev) on GitHub
 
-* Install [gh-pages](https://www.npmjs.com/package/gh-pages).
+* Create a file called `index.html` in the root of the project and paste the line:
 
-```console
-npm install gh-pages
+```html
+<meta http-equiv="refresh" content="0; url=https://{your-name}.github.io/{repository-name}/build/index.html">
 ```
 
-* Inside `package.json` add the lines `"homepage": "https://{your-name}.github.io/{repository-name}",`, `"deploy": "gh-pages -d build",` in their respective locations:
+(Don't forget to change the `https://{your-name}.github.io/{repository-name}/build/index.html` to your repository link.)
 
-(Don't forget to change the `https://{your-name}.github.io/{repository-name}` to your repository link.)
+* Inside `package.json` add the line:
+
+```json
+"homepage": "https://{your-name}.github.io/{repository-name}/build/",
+```
 
 ```diff
 {
   "name": "my-app",
   "version": "0.1.0",
-+ "homepage": "https://{your-name}.github.io/{repository-name}",
++ "homepage": "https://{your-name}.github.io/{repository-name}/build/",
 ```
 
-```diff
-"scripts": {
-+ "deploy-page": "gh-pages -d build",
-```
+(Note that `https://{your-name}.github.io/{repository-name}/build/` is not the same as `index.html`, and don't need to change it to your repository link .)
 
 * Make a build.
 
@@ -28,10 +29,7 @@ npm install gh-pages
 npm run build
 ```
 
-* Deploy withe gh-pages.
+* Push the files to the repository.
+* In the repository go to `Settings > Pages` and in the `Branch` part select the your main branch and save.
 
-```console
-npm run deploy-page
-```
-
-* In the repository go to `Settings > Pages` and in the `Branch` part select the `gh-pages` and save.
+Now every time you want to update the page, just create a build and push it to the repository.
