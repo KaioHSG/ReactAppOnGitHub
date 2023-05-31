@@ -22,6 +22,12 @@ npm install gh-pages
 + "deploy-page": "gh-pages -d build",
 ```
 
+* Make a build.
+
+```console
+npm run build
+```
+
 * Deploy withe gh-pages.
 
 ```console
