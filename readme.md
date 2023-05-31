@@ -1,6 +1,6 @@
-## How to add a React App on GitHub
+## How to deploy a React App page on GitHub
 
-* Create a file called `index.html` in the root of the project and paste the line:
+* Create a file `index.html` in the root of the project and add the line:
 
 ```html
 <meta http-equiv="refresh" content="0; url=https://{your-name}.github.io/{repository-name}/build/index.html">
