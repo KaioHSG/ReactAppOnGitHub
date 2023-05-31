@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import Header from '../../components/Header/Index';
 import Section from '../../components/Section/Index';
-import FakeAPI from '../../service/dados.json';
+import FakeAPI from '../../service/data.json';
 
 const Home = () => {
-  const [dados] = useState(FakeAPI);
+  const [data] = useState(FakeAPI);
 
   return (
     <>
       <body>
-        <Header img={dados.profile.img} />
+        <Header img={data.profile.img} />
         <main>
-          <Section profile={dados.profile} />
+          <Section profile={data.profile} />
         </main>
       </body>
     </>

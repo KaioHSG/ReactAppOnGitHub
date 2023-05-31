@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "img": "https://placeholder.com/200x200",
+    "name": "Name",
+    "surname": "Surname",
+    "city": "City",
+    "state": "State",
+    "phone": "(000) 123-4567",
+    "email": "contact@mail.net",
+    "biography": "My biography.",
+    "linkedin": "https://www.linkedin.com/{myprofile}",
+    "github": "https://www.github.com/{myprofile}",
+    "experience": [
+      {
+        "id": 1,
+        "job": "Job",
+        "company": "Company where I work/worked",
+        "period": "Period worked",
+        "activity": "Activity carried out."
+      }
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "skill": "Skill",
+        "company": "Company where I learned",
+        "period": "Learning time",
+        "activity": "Activity carried out."
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "project": "Project name",
+        "link": "http://{project.link}",
+        "summary": "Project summary."
+      }
+    ]
+  }
+}

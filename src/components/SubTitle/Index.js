@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionSubTitle } from './styles';
 
-const SubTitle = ({ texto }) => <SectionSubTitle>{texto}</SectionSubTitle>;
+const SubTitle = ({ text }) => <SectionSubTitle>{text}</SectionSubTitle>;
 
 export default SubTitle;

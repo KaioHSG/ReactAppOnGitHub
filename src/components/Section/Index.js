@@ -10,63 +10,63 @@ import { Sections } from './styles';
 const Section = ({ profile }) => (
   <>
     <Sections id="about">
-      <Title texto="Hi everyone, I'm" />
+      <Title text="Hi everyone, I'm" />
       <SectionHeading>
-        {profile.nome} <Highlight>{profile.sobrenome}</Highlight>
+        {profile.name} <Highlight>{profile.surname}</Highlight>
       </SectionHeading>
       <Info>
-        {profile.cidade} - {profile.estado} - {profile.contato} -{' '}
+        {profile.city} - {profile.state} - {profile.phone} -{' '}
         <Highlight> {profile.email}</Highlight>
       </Info>
-      <p>{profile.biografia}</p>
+      <p>{profile.biography}</p>
       <div id="contacts">
-        <Title texto="Contacts" />
+        <Title text="Contacts" />
         <h2>
-          {profile.contato}
+          {profile.phone}
           <p/>
           {profile.email}
         </h2>
       </div>
     </Sections>
     <Sections id="experience">
-      <Title texto="Experience" />
-      {profile.experiencia.map((val) => (
+      <Title text="Experience" />
+      {profile.experience.map((val) => (
         <Card
           key={val.id}
-          subTitle={val.cargo}
-          subTitleH3={val.empresa}
-          date={val.periodo}
-          info={val.atividades}
+          subTitle={val.job}
+          subTitleH3={val.company}
+          date={val.period}
+          info={val.activity}
         />
       ))}
     </Sections>
     <Sections id="skills">
-      <Title texto="Skills" />
-      {profile.habilidades.map((val) => (
+      <Title text="Skills" />
+      {profile.skills.map((val) => (
         <Card
           key={val.id}
-          subTitle={val.habilidade}
-          subTitleH3={val.empresa}
-          data={val.periodo}
-          info={val.atividades}
+          subTitle={val.skill}
+          subTitleH3={val.company}
+          data={val.period}
+          info={val.activity}
         />
       ))}
     </Sections>
     <Sections id="projects">
-      <Title texto="Projects" />
-      {profile.projetos.map((val) => (
+      <Title text="Projects" />
+      {profile.projects.map((val) => (
         <Card
           key={val.id}
-          subTitle={val.nomeprojeto}
+          subTitle={val.project}
           subTitleH3={
             <a
-            href={val.linkprojeto}
+            href={val.link}
             target="_blank">
-              {val.linkprojeto}
+              {val.link}
             </a>
           }
-          data={val.periodo}
-          info={val.resumoprojeto}
+          data={val.period}
+          info={val.summary}
         />
       ))}
     </Sections>
