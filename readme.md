@@ -6,15 +6,15 @@
 npm install gh-pages
 ```
 
-* Inside `package.json` add the lines `"homepage": "https://your-name.github.io/repository-name",`, `"deploy": "gh-pages -d build",` in their respective locations:
+* Inside `package.json` add the lines `"homepage": "https://{your-name}.github.io/{repository-name}",`, `"deploy": "gh-pages -d build",` in their respective locations:
 
-(Don't forget to change the `https://your-name.github.io/repository-name` to your repository link.)
+(Don't forget to change the `https://{your-name}.github.io/{repository-name}` to your repository link.)
 
 ```diff
 {
   "name": "my-app",
   "version": "0.1.0",
-+ "homepage": "https://your-name.github.io/repository-name",
++ "homepage": "https://{your-name}.github.io/{repository-name}",
 ```
 
 ```diff
