@@ -21,7 +21,7 @@
 + "homepage": "https://{your-name}.github.io/{repository-name}/build/",
 ```
 
-(Note that `https://{your-name}.github.io/{repository-name}/build/` is not the same as `index.html`, and don't need to change it to your repository link .)
+(Note that `https://{your-name}.github.io/{repository-name}/build/` is not the same as `index.html`, and don't forget to change it to your repository link.)
 
 * Make a build.
 
