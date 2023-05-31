@@ -1,4 +1,4 @@
-## How to add a [React App](https://create-react-app.dev) on GitHub
+## How to add a React App on GitHub
 
 * Create a file called `index.html` in the root of the project and paste the line:
 
