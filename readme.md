@@ -21,7 +21,7 @@
 + "homepage": "https://{your-name}.github.io/{repository-name}/build/",
 ```
 
-(Note that `https://{your-name}.github.io/{repository-name}/build/` is not the same as `index.html`, and don't forget to change it to your repository link.)
+(Note that `https://{your-name}.github.io/{repository-name}/build/` is not the same as `index.html`. And don't forget to change it to your repository link.)
 
 * Make a build.
 
@@ -30,6 +30,6 @@ npm run build
 ```
 
 * Push the files to the repository.
-* In the repository go to `Settings > Pages` and in the `Branch` part select the your main branch and save.
+* In the repository go to `Settings` > `Pages`, and in the `Branch` select the your main branch and save.
 
 Now every time you want to update the page, just create a build and push it to the repository.
